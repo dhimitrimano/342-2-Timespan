@@ -19,13 +19,3 @@ In addition to integer value, the constructor should also be able to handle doub
 TimeSpan(1.5, -10, 93)	same as 1:21:33
 TimeSpan(1.5)		    same as 1:30:00
 ``` 
-
-## Compile and Run
-
-```
-# quick compile for testing
-g++ -g -std=c++11 -Wall -Wextra -Wno-sign-compare *.cpp
-
-# comprehensive tests
-./create-output.sh > output.txt 2>&1
-```
