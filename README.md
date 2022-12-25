@@ -19,3 +19,7 @@ In addition to integer value, the constructor should also be able to handle doub
 TimeSpan(1.5, -10, 93)	same as 1:21:33
 TimeSpan(1.5)		    same as 1:30:00
 ``` 
+
+Credits:<br>
+Shell scripts and starter code provided by Yusuf Pisan<br>
+Timespan class implementation by Dhimitri Mano
